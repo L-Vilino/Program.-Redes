@@ -17,10 +17,4 @@ mes_i = int(input('Digite o mês inicial: '))
 dia_f = int(input('Digite o dia final: '))
 mes_f = int(input('Digite o mês final: '))
 
-if mes_i == mes_f :
-    diferenca = dia_f - dia_i
-elif mes_f < mes_i :
-    diferenca = (((mes_i + mes_f) * 30) - dia_i + dia_f) / 12
-else : 
-    diferenca = ((mes_f - mes_i) * 30) - dia_i + dia_f
-print(diferenca)
+

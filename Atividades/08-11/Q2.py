@@ -5,9 +5,6 @@ saque = float(input('Digite o valor do saque em real: R$ '))
 if saque <= 0 :
     print('Digite um saque válido')
 else :
-    #cent = saque // 100
-   # saque = saque % 100
-
     cinq = saque // 50
     saque = saque % 50
 
